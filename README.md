@@ -13,7 +13,7 @@ In your `.eslintrc.js`:
 
 ```tsx
 module.exports = {
-  extends: ['@bluebottle'],
+  extends: ['@bluebottled'],
   parserOptions: {
     project: './tsconfig.json',
   },
