@@ -1,6 +1,6 @@
 {
   "name": "@bluebottled/eslint-config",
-  "version": "0.1.3",
+  "version": "0.1.7",
   "description": "Bluebottle Digital ESLint configuration",
   "main": "index.js",
   "scripts": {
@@ -25,16 +25,16 @@
     "eslint-plugin-simple-import-sort": "*"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.16.0",
-    "@typescript-eslint/parser": "^6.16.0",
-    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-import-resolver-webpack": "^0.13.8",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-jsx-a11y": "*",
-    "eslint-plugin-react": "*",
-    "eslint-plugin-react-hooks": "*",
-    "eslint-plugin-simple-import-sort": "^10.0.0"
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0"
   }
 }
